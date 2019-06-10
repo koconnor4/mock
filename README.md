@@ -1,2 +1,2 @@
 # mock
-Aimed at providing mock SN host galaxies from a catalog of objects.
+Aimed at providing mock SN host galaxies from a catalog of objects. Very toy model at the moment, given a delay time distribution for a given type of SN and star formation history for an object in catalog the expected SN rate is convolution of these. The probabilities are assigned using these rates. Currently just uses an inverse time dtd and exponentially decaying sfh. The mass and age of the galaxy are the influencing factors. The goal is to eventually use actual host data to constrain dtd (refer to my WFIRST evernote post in SCSN group for details on this).    
